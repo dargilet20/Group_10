@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Find Your Dog</title>
+    <link rel="stylesheet" href="../static/WebsiteDesign.css">
+    <script defer src="../static/JS.js"></script>
+</head>
+
+<body>
+    <div id="FindDog_container">
+        <div id="header">
+            <header>
+                <nav class="nav">
+                    <ul class="nav-list">
+                        <li class="list-item"><a href="HOME.html">Home</a></li>
+                        <li class="list-item"><a href="AboutAs.html">About Us</a></li>
+                        <li class="list-item"><a href="PrivateProfile.html">My Profile</a></li>
+                        <li class="list-item"><a href="SignUp.html">Log Out</a></li>
+                    </ul>
+                </nav>
+            </header>
+        </div>
+        <div id="Container_Logo"><img src="../static/logo.png" alt="Logo" id="logo"></div>
+        
+        <div id="box">
+            <div id="Container_Header">Find Your Dog</div>
+            
+            <!-- <form id="FindDog_form" action="" method="" onsubmit="return checkFindDog()">  -->
+                <table cellpadding="10" cellspacing="3" >
+                    <tr>
+                        <td><label for="category">What Is Your Favorite Type Of Dog?</label></td> 
+                    </tr><tr>
+                        <td><select name="TypesOfDogs" class="input_Upload" required id="TypesOfDogs" >
+                            <option value=" "> </option>
+                            <option value="Watch dogs">Watchdogs</option>
+                            <option value="Hunting dogs">huntingdogs</option>
+                            <option value="Country dogs">Countrydogs</option>
+                            <option value="Sled dogs">sleddogs</option>
+                            <option value="Boxer">Boxer</option>
+                        </select></td>
+                    </tr><tr>
+                        <td><label for="category">Where Are You From?</label></td> 
+                    </tr><tr>
+                        <td><select name="places" class="input_Upload" required id="places" >
+                            <option value=" "> </option>
+                            <option value="North">North</option>
+                            <option value="South">South</option>
+                            <option value="East">East</option>
+                            <option value="West">West</option>
+                        </select></td>
+                     </tr><tr>
+                        <td><textarea name="Text" required id="aboutdog" cols="30" rows="10" maxlength="1000" class="input_signUp" placeholder="Why Are You Interested In Adopting A Dog"></textarea></td>
+                   </tr>
+                </table>
+            <table  cellpadding="8" cellspacing="3">
+                <tr><td>
+                    <button type="submit" onclick="navigateToPageSR()" >Go Find Your Dog</button>
+                </td></tr>
+            </table> 
+        <!-- </form> -->
+        </div>
+   
+        <div class="footerRight">
+            <footer>
+                <a href="./ContactUs.html">Contact Us</a>
+            </footer>
+        </div>   
+        <div class="footerLeft">
+            <footer>
+                <p>Ways of communication:<br>Our phone number- 077-50409922<br>Our email- Smilingdog@gmail.com </p>
+            </footer>
+        </div>       
+</div>
+</body>
+</html>
