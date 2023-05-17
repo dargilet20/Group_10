@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SignUp</title>
+    <link rel="stylesheet" href="../static/WebsiteDesign.css">
+    <script defer src="../static/JS.js"></script>
+</head>
+<body>
+    <div id="SignUp_container">
+        <div id="header">
+            <header>
+                <nav class="nav">
+                    <ul class="nav-list">
+                        <li class="list-item"><a href="mainPage.html">Home</a></li>
+                        <li class="list-item"><a href="AboutAs.html">About Us</a></li>
+                    </ul>
+                </nav>
+            </header>
+        </div>
+        <div id="Container_Logo"><img src="../static/logo.png" alt="Logo" id="logo"></div>
+
+        <div id="box">
+            <div id="Container_Header"> Create your User</div>
+                <div id="form-container_sign-up" class="info">
+                    <form id="signUp_form" action="" method="" onsubmit="return checkSignUp()"> 
+                        <table cellpadding="10" cellspacing="3">
+                            <tr>
+                                <td><label for="email" id="Labels_Id">Your Email </label></td>
+                                <td><input type="email" required id="email" name="userEmail" maxlength="255" class="input_signUp" required pattern="[a-zA-Z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$" placeholder=""></td>
+                            </tr> <tr>
+                                <td><label for="password" id="Labels_Id">Your Password</label></td>
+                                <td><input type="password" required id="password" maxlength="10" class="input_signUp" required minlength="8" name="userPassword" placeholder=""></td>
+                            </tr> <tr>
+                                <td><label for="text" id="Labels_Id">Your First Name </label></td>
+                                <td><input type="text" re quired id="First-Name" maxlength="50" class="input_signUp" name="userName" placeholder=""><br></td>
+                            </tr> <tr>
+                                <td><label for="text" id="Labels_Id">Your Last Name </label></td>
+                                <td><input type="text" re quired id="Last-Name" maxlength="50" class="input_signUp" name="LastName" placeholder=""><br></td>
+                            </tr> <tr>
+                                <td><label for="text" id="Labels_Id">Your Phone Number </label></td>
+                                <td><input type="text" re quired id="PhoneNumber" maxlength="20" class="input_signUp" name="PhoneNumber" placeholder=""><br></td>
+                            </tr> <tr>
+                                <td><label for="Birth-Date" id="Labels_Id">Your Birth Date </label></td>
+                                <td><input type="date" required id="Birth-Date" name="userBirthDate" class="input_signUp"><br></td>
+                            </tr>
+                        </table>
+                        <table  cellpadding="8" cellspacing="3">
+                            <tr><td>
+                                <button type="submit" id="signUp_button">The Dogs Are Waiting For You</button>
+                            </td></tr>
+                        </table>
+                    </form>
+                </div>
+            </div>
+            <div class="footerRight">
+                <footer>
+                    <a href="./ContactUs.html">Contact Us</a>
+                </footer>
+            </div>   
+            <div class="footerLeft">
+                <footer>
+                    <p>Ways of communication:<br>Our phone number- 077-50409922<br>Our email- Smilingdog@gmail.com </p>
+                </footer>
+            </div>        
+    </div>
+</body>
+</html>
