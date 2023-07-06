@@ -1,0 +1,33 @@
+extends signed-out
+
+block content
+  #box
+    #Container_Header Contact Us
+    #form-contact.info
+      form#contactUs_form(action='')
+        table(cellpadding='10' cellspacing='3')
+          tr
+            td
+              input#name.input_signUp(type='text' required='' name='messageName' maxlength='255' placeholder='Your Name')
+          tr
+            td
+              input#email.input_signUp(type='email' required='' name='messageEmail' maxlength='255' placeholder='Your Email')
+          tr
+            td
+              textarea#message.input_signUp(name='messageText' required='' cols='30' rows='10' maxlength='1000' placeholder='Your Message')
+        table(cellpadding='8' cellspacing='3')
+          tr
+            td
+              button(type='submit') Send Message
+  .footerRight
+    footer
+      // <a href="./contact-us">Contact Us</a>
+  .footerLeft
+    footer
+      p
+        | Ways of communication:
+        br
+        | Our phone number-
+        |                     077-50409922
+        br
+        | Our email- Smilingdog@gmail.com

@@ -1,0 +1,17 @@
+﻿id,email,password,firstname,lastname,phone,birth_date
+1,Inbar@gmail.com,111111,Inbar,Ron,542616777,1995-08-31
+2,tal@gmail.com,111112,tal,aviv,545656315,1995-09-01
+3,mor@gmail.com,111113,mor,hadar,545656900,1995-09-02
+4,tamar@gmail.com,111114,tamar,Levi,545656700,1995-09-03
+5,shir@gmail.com,111115,shir,Cohen,545657315,1995-09-04
+6,shahar@gmail.com,111116,shahar,Yafa,545656777,1995-09-05
+7,maya@gmail.com,111117,maya,Tal,545656888,1995-09-06
+8,lali@gmail.com,111118,lali,Opal,545656111,1995-09-07
+9,noa@gmail.com,111119,noa,Shalit,545656111,1995-09-08
+10,shay@gmail.com,111120,shay,Gilet,545656333,1995-09-09
+11,tali@gmail.com,111121,tali,Kooper,545656345,1995-09-10
+12,tani@gmail.com,111122,tani,Hazan,545656234,1995-09-11
+13,adi@gmail.com,111123,adi,Samet,545656123,1995-09-12
+14,hadar@gmail.com,111124,hadar,Sruya,545656123,1995-09-13
+15,aviv@gmail.com,111125,aviv,Katan,542616777,1995-09-14
+16,ron@gmail.com,111126,Ron,Haziza,545213259,1995-09-15

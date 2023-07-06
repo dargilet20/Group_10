@@ -1,0 +1,373 @@
+:root {
+    --BLACK: #000000;
+    --WHITE: #ffffff;
+    --BROWN: #421512;
+    --LighterRED: #c86865;
+    --Cream: #b89f9f;
+    --BORDEAUX: #711909;
+    --LightBROWN: #af905d;
+    --BOX: #7c6e6e;
+}
+
+#cover a {
+    border-radius: 8px;
+    background-color: var(--Cream);
+    border: 2px solid var(--BROWN);
+    color: var(--BROWN);
+    font-weight: bold;
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+        sans-serif;
+    letter-spacing: 2px;
+    padding: 12px;
+    text-transform: uppercase;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+#cover td:hover {
+    animation: zoom-in-zoom-out 2s ease infinite;
+}
+
+h2 {
+    margin: 10px 0px;
+    font-size: 30px;
+    color: #35150c;
+    margin-bottom: 15px;
+}
+
+p {
+    color: var(--LightBROWN);
+    font-size: larger;
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+        sans-serif;
+}
+
+#box,
+#myDogs,
+#searchResults {
+    grid-area: content;
+    position: relative;
+    background-color: var(--BOX);
+    border-radius: 8px;
+    padding: 40px;
+    box-shadow: 0px 30px 125px -5px #000;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+#cover {
+    grid-area: content;
+    position: relative;
+    background-image: url(images/logo.png);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 8px;
+    padding: 40px;
+    box-shadow: 0px 30px 125px -5px #000;
+    margin: auto 200px;
+}
+
+.footerRight {
+    text-align: right;
+    grid-area: footerRight;
+    margin-right: 10px;
+    margin-top: 80px;
+}
+
+.footerLeft {
+    grid-area: footerLeft;
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+        sans-serif;
+    margin-left: 10px;
+    margin-top: 80px;
+}
+
+.footerRight a:hover {
+    background-color: var(-Cream);
+    border-radius: 5px;
+}
+
+.ActiveFooter {
+    border: 2px solid var(--BLACK);
+    border-radius: 5px;
+}
+
+footer a {
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+        sans-serif;
+    font-size: 30px;
+    color: var(--BLACK);
+}
+
+#button-container {
+    display: flex;
+}
+
+body {
+    background-image: url(images/background.png);
+    background-size: cover;
+    position: relative;
+    display: grid;
+    grid-template-areas:
+        "logo nav"
+        "content content"
+        "footerLeft footerRight";
+    margin: 0;
+}
+
+.Active {
+    border: 2px solid var(--Cream);
+    border-radius: 5px;
+}
+
+a:link {
+    text-decoration: none;
+}
+
+.nav {
+    font-weight: bold;
+    font-size: 17px;
+    display: right;
+}
+
+.nav-list {
+    text-align: right;
+    margin-right: 10px;
+    margin-top: 30px;
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+        sans-serif;
+}
+
+.nav-list .list-item {
+    display: inline-block;
+    padding: 17px;
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+        sans-serif;
+}
+
+.nav a {
+    color: var(--BLACK);
+}
+
+.nav a:hover {
+    background-color: var(--Cream);
+    border-radius: 5px;
+}
+
+#Container_Logo {
+    grid-area: logo;
+}
+
+#logo {
+    width: 100px;
+    width: 100px;
+    border-radius: 50px;
+}
+
+#Container_Header {
+    grid-area: content;
+    text-align: center;
+    letter-spacing: 1px;
+    word-spacing: 10px;
+    font-size: 55px;
+    font-weight: bold;
+    margin-bottom: 30px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#WELCOME_Header {
+    grid-area: content;
+    text-align: center;
+    letter-spacing: 1px;
+    word-spacing: 10px;
+    font-size: 100px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+#Container_about {
+    grid-area: about;
+    width: fit-content;
+    text-align: center;
+    border-radius: 5px;
+    margin: auto;
+    margin-top: 3%;
+}
+
+button:hover {
+    animation: zoom-in-zoom-out 2s ease infinite;
+}
+
+button {
+    border-radius: 8px;
+    background-color: var(--Cream);
+    border: 2px solid var(--BROWN);
+    color: var(--BROWN);
+    font-weight: bold;
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+        sans-serif;
+    letter-spacing: 2px;
+    padding: 12px;
+    text-transform: uppercase;
+    cursor: pointer;
+    font-size: 20px;
+    margin-top: 1%;
+}
+
+.formHeadings {
+    font-weight: bold;
+    font-size: 25px;
+}
+
+.custom_select {
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+        sans-serif;
+    font-size: 20px;
+    padding: 7px;
+}
+
+#form-contact {
+    grid-area: contactForm;
+    position: relative;
+}
+
+table {
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+        sans-serif;
+}
+
+.input_signup,
+.input_signUp,
+.input_Upload {
+    border: 2px solid var(--BORDEAUX);
+    border-radius: 10px;
+    padding: 10px;
+    padding-left: 3cm;
+    padding-right: 3cm;
+}
+
+.dog-square {
+    display: grid;
+    grid-template-columns: min-content minmax(200px, 1fr) min-content;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 50px;
+    padding: 30px;
+    background-color: rgb(240, 232, 232);
+    border-radius: 10px;
+}
+
+.dog-image {
+    width: 200px;
+    margin: 0;
+    padding: 0;
+    object-fit: contain;
+}
+
+.dog-details {
+}
+
+.dog-details h2 {
+    margin: 0 0 20px 0;
+}
+
+.dog-details p2 {
+    margin: 0;
+    color: var(--BROWN);
+    font-size: larger;
+}
+
+.dogs-container {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+.dog-actions {
+}
+
+.dog-actions td {
+}
+
+.dog-actions button {
+}
+
+#Labels_Id {
+    font-size: 22px;
+}
+
+label {
+    font-size: 22px;
+    color: var(--WHITE);
+    font-style: normal;
+}
+
+#no-account {
+    text-align: center;
+    font-size: 18px;
+    color: #e0e1dd;
+}
+
+#form-container_Update {
+    grid-area: UpdatePersonal;
+}
+
+#Upload {
+    grid-area: Upload;
+    line-height: 2;
+}
+
+#SearchCategory {
+    grid-area: SCategory;
+    text-align: center;
+    margin-bottom: 1%;
+}
+
+#searchLabel {
+    font-weight: bold;
+}
+
+#form-container_sign-in {
+    grid-area: signIn;
+    line-height: 2;
+}
+
+#form-container_sign-up {
+    grid-area: signupPage;
+}
+
+#LastDate,
+#Birth-Date {
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+        sans-serif;
+}
+
+#TypesOfDogs {
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+        sans-serif;
+    font-size: 15px;
+    padding: 7px;
+    border-radius: 8px;
+}
+
+#header {
+    grid-area: nav;
+}
+
+@keyframes zoom-in-zoom-out {
+    0% {
+        transform: scale(1, 1);
+    }
+    50% {
+        transform: scale(1.15, 1.15);
+    }
+    100% {
+        transform: scale(1, 1);
+    }
+}

@@ -1,0 +1,56 @@
+extends signed-in
+
+block content
+  #box
+    #Container_Header Your User
+    #form-container_sign-up.info
+      form#profile_form(action='')
+        table(cellpadding='10' cellspacing='3')
+          tr
+            td
+              label#Labels_Id(for='email')
+                | Your Email
+            td
+              input#email.input_signup(type='email' required='' name='userEmail' maxlength='255')
+          tr
+            td
+              label#Labels_Id(for='password') Your Password
+            td
+              input#password.input_signup(type='password' required='' maxlength='255' minlength='8' name='userPassword')
+          tr
+            td
+              label#Labels_Id(for='text')
+                | Your First Name
+            td
+              input#firstname.input_signup(type='text' re='' quired='' maxlength='255' name='firstname')
+              br
+          tr
+            td
+              label#Labels_Id(for='text')
+                | Your Last Name
+            td
+              input#lastname.input_signup(type='text' re='' quired='' maxlength='255' name='lastname')
+              br
+          tr
+            td
+              label#Labels_Id(for='text')
+                | Your Phone Number
+            td
+              input#phone.input_signup(type='text' re='' quired='' maxlength='255' name='phone')
+              br
+          tr
+            td
+              label#Labels_Id(for='Birth-Date')
+                | Your Birth Date
+            td
+              input#birth-date.input_signup(type='date' required='' name='userBirthDate')
+              br
+        table(cellpadding='8' cellspacing='3')
+          tr
+            td
+              button#edit_button(type='submit')
+                | Update
+          tr
+            td
+              button(onclick="event.preventDefault(); window.location = 'mydogs'")
+                | View your dog list

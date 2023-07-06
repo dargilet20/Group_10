@@ -1,0 +1,52 @@
+extends signed-out
+
+block content
+  #box
+    #Container_Header Create your User
+    #form-container_sign-up.info
+      form#signup_form(action='')
+        table(cellpadding='10' cellspacing='3')
+          tr
+            td
+              label#Labels_Id(for='email')
+                | Your Email
+            td
+              input#email.input_signup(type='email' required='' name='userEmail' maxlength='255' placeholder='')
+          tr
+            td
+              label#Labels_Id(for='password') Your Password
+            td
+              input#password.input_signup(type='password' required='' minlength='6' name='userPassword' placeholder='')
+          tr
+            td
+              label#Labels_Id(for='text')
+                | Your First Name
+            td
+              input#firstname.input_signup(type='text' re='' quired='' maxlength='50' name='userName' placeholder='')
+              br
+          tr
+            td
+              label#Labels_Id(for='text')
+                | Your Last Name
+            td
+              input#lastname.input_signup(type='text' re='' quired='' maxlength='50' name='LastName' placeholder='')
+              br
+          tr
+            td
+              label#Labels_Id(for='text')
+                | Your Phone Number
+            td
+              input#phone.input_signup(type='text' re='' quired='' maxlength='20' name='PhoneNumber' placeholder='')
+              br
+          tr
+            td
+              label#Labels_Id(for='Birth-Date')
+                | Your Birth Date
+            td
+              input#birth-date.input_signup(type='date' required='' name='userBirthDate')
+              br
+        table(cellpadding='8' cellspacing='3')
+          tr
+            td
+              button#signup_button(type='submit')
+                | The Dogs Are Waiting For You

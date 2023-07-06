@@ -1,0 +1,46 @@
+extends signed-in
+
+block content
+  #box
+    #Container_Header Dog owner details
+    #form-container_sign-up.info
+      form#owner_form(action='')
+        table(cellpadding='10' cellspacing='3')
+          tr
+            td
+              label#Labels_Id(for='email')
+                | Email
+            td
+              input#email.input_signup(type='email' required='' name='userEmail' maxlength='255')
+          tr
+            td
+              label#Labels_Id(for='password') Password
+            td
+              input#password.input_signup(type='password' required='' maxlength='255' minlength='8' name='userPassword')
+          tr
+            td
+              label#Labels_Id(for='text')
+                | First Name
+            td
+              input#firstname.input_signup(type='text' re='' quired='' maxlength='255' name='firstname')
+              br
+          tr
+            td
+              label#Labels_Id(for='text')
+                | Last Name
+            td
+              input#lastname.input_signup(type='text' re='' quired='' maxlength='255' name='lastname')
+              br
+          tr
+            td
+              label#Labels_Id(for='text')
+                | Phone Number
+            td
+              input#phone.input_signup(type='text' re='' quired='' maxlength='255' name='phone')
+              br
+          tr
+            td
+              label#Labels_Id(for='Birth-Date')
+                | Birth Date
+            td
+              input#birth-date.input_signup(type='date' required='' name='userBirthDate')

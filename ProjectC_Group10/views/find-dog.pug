@@ -1,0 +1,68 @@
+extends signed-in
+
+block content
+  #box
+    #Container_Header Find Your Dog
+    table(cellpadding='10' cellspacing='3')
+      tr
+        td
+          label(for='category') What Is Your Favorite Type Of Dog?
+      tr
+        td
+          select#dogtype.input_Upload(name='TypesOfDogs')
+            option(value='')
+            option(value='Maltase') Maltase
+            option(value='German Shepherd')
+              | German Shepherd
+            option(value='Belgian shepherd')
+              | Belgian shepherd
+            option(value='poodle') poodle
+            option(value='Pincher') Pincher
+            option(value='bulldog') bulldog
+            option(value='pitdog') pitdog
+            option(value='boxer') boxer
+            option(value='Pekingese') Pekingese
+            option(value='Beagle') Beagle
+            option(value='Golden retriever')
+              | Golden retriever
+            option(value='Doberman') Doberman
+            option(value='Dalmatian') Dalmatian
+            option(value='labrador') labrador
+            option(value='Pomeranian') Pomeranian
+            option(value='Shitso') Shitso
+      tr
+        td
+          label(for='category') What Is Your Favorite Dog size?
+      tr
+        td
+          select#SizeOfDogs.input_Upload(name='SizeOfDogs')
+            option(value='')
+            option(value='Small') Small
+            option(value='Medium') Medium
+            option(value='Big') Big
+      tr
+        td
+          label(for='category') What Is Your Favorite Dog Gender?
+      tr
+        td
+          select#GenderOfDogs.input_Upload(name='GenderOfDog')
+            option(value='')
+            option(value='M') Male
+            option(value='F') Female
+      tr
+        td
+          label(for='category') Where Are You From?
+      tr
+        td
+          select#places.input_Upload(name='places')
+            option(value='')
+            option(value='North') North
+            option(value='South') South
+            option(value='East') East
+            option(value='West') West
+    table(cellpadding='8' cellspacing='3')
+      tr
+        td
+          button(onclick='searchDogs()')
+            | Go Find Your Dogs
+    // </form>

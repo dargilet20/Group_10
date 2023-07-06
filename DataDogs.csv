@@ -1,0 +1,17 @@
+﻿Id,Name,Age,Gender,Type,Status,Size,Area,Additional Description,Picture,Howner Id
+1,Rexi,10,M,Maltase,Awaiting adoption,Small,South,,Dog1.png,1
+2,Beef,3,M,German Shepherd,Adopted,Medium,North,,Dog2.png,1
+3,Ray,5,M,Belgian shepherd,Foster,Big,Center,,Dog3.png,1
+4,Tofy,6,F,poodle,Awaiting adoption,Big,West,,Dog4.png,1
+5,Gimmy,8,M,Pincher,Adopted,Small,South,,Dog5.png,5
+6,Alfy,9,M,bulldog,Foster,Medium,North,,Dog6.png,6
+7,Big,12,F,pitdog,Awaiting adoption,Medium,Center,,Dog7.png,6
+8,Small,2,F,boxer,Adopted,Medium,West,,Dog8.png,6
+9,Lony,1,F,Pekingese,Foster,Medium,South,,Dog9.png,6
+10,Tony,0.8,M,Beagle,Awaiting adoption,Small,North,,Dog10.png,10
+11,Toty,5,F,Golden retriever,Adopted,Small,Center,,Dog11.png,11
+12,Boby,6,M,Doberman,Foster,Small,West,,Dog12.png,11
+13,Zohar,8,F,Dalmatian,Awaiting adoption,Small,South,,Dog13.png,11
+14,Hatola,5,F,labrador,Adopted,Medium,North,,Dog14.png,14
+15,Joy,5,F,Pomeranian,Foster,Big,Center,,Dog15.png,15
+16,Happy,9,M,Shitso,Awaiting adoption,Big,West,,Dog16.png,15

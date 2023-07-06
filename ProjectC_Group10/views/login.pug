@@ -1,0 +1,23 @@
+extends signed-out
+
+block content
+  #box
+    #Container_Header LOG IN
+    #form-container_sign-in.info
+      form#LogIn_form(action='')
+        table(cellpadding='10' cellspacing='3')
+          tr
+            td
+              input#email.input_signUp(type='email' required='' name='logInEmail' placeholder='Your Email')
+          tr
+            td
+              input#password.input_signUp(type='password' required='' minlength='6' name='logInPassword' placeholder='Your Password')
+        table(cellpadding='12' cellspacing='2')
+          tr
+            td
+              button#logIn_button(type='submit')
+                | Log in
+        td
+          p#no-account
+            | Don&apos;t have an account?
+            a(href='sign-up') Sign up
